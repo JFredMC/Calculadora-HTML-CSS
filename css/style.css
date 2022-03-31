@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    display: grid;
+    min-height: 96vh;
+    place-content: center;
+  }
+
+  .container{
+    border: 5px solid #1d3557;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .title{
+    display: grid;
+    color: #1d3557;
+    place-content: center;
+  }
+  
+  .input{
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-auto-rows: minmax(50px, auto);
+    margin: 1px;
+    border: 1px solid #1d3557;
+    border-radius: 10px;
+  }
+  
+  button{
+    color: #1d3557;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    filter: brightness(90%);
+    background-color: #457b9d;
+  }
+
+  .btn-op{
+    background-color: #6a87af;
+    color: #fff;
+  }
+
+  .btn-delete{
+    background-color: #ef233c;
+    color: #fff;
+  }
+
+  
+  .container-cal{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-auto-rows: minmax(50px, auto);
+  }
